@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .about {
     display: flex;
     flex-direction: column;
@@ -14,7 +13,6 @@
     padding: 20px;
     margin: 0 auto;
 }
-
 .about h1 {
     margin-bottom: 10px;
     color: #71c55d;
@@ -34,8 +32,8 @@ a{
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    color: #71c55d;
 }
-
 @media screen and (max-width: 768px) {
     .about {
         width: 90%;

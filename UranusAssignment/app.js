@@ -23,4 +23,5 @@ const navbar = document.querySelector(".navbar");
 
 bar.addEventListener("click", () => {
   navbar.classList.toggle("show-navbar");
+  navbar.classList.toggle("navbar");
 });
