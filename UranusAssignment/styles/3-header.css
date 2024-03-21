@@ -32,7 +32,7 @@ h4 {
     padding-left: 25px;
     padding-right: 25px;
   }
-  h1{
+  .welcome h1{
     padding: 20px;
     font-size: 5px;
   }
@@ -110,7 +110,7 @@ h4 {
   .show-navbar ul{
     display: block;
     position: absolute;
-    width: 35%;
+    width: 50%;
     height: 100vh !important;
     position: fixed;
     left: 0;

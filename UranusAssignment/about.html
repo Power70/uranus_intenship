@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uranus Web</title>
-    <link rel="stylesheet" href="./styles/about.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uranus Web</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="./styles/3-header.css">
+  <link rel="stylesheet" href="./styles/4-common.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/about.css">
 </head>
 <body>
+  <header>
+    <div class="logo-container">
+      <div class="logo"></div>
+      <i class="fas fa-bars"></i>
+    </div>
+    <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="/index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="./about.html">About</a></li>
+          <li><a class="nav-link scrollto" href="./brownPapaer.html">Brown paper</a></li>
+          <li><a class="nav-link scrollto" href="https://twitter.com/ANUSsolana" target="blank">Twitter(X)</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </header>
     <div class="about">
         <h1>About us</h1>
         <p>
@@ -37,8 +58,27 @@
             This is where the idea of a global mafia came from, and its real except rather than this running the town, they run the world. 
 
             Unlimited funding goes along way, and now it gave a reason to create conflict. Because printing money is key for war, and safety. 
-
         </p>
     </div>
+    <footer>
+        <div class="footer-container">
+        <div class="youtube">
+            <ul>
+                <li><a href="https://youtu.be/gI7qfHuLQ6Q?si=u-WxyjUXlvIvY-wA">Click here to see our youtube video</a></li>
+                <li><a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+                <li><a href="#"><i class="fa-brands fa-square-instagram"></i>Instagram</a></li>
+            </ul>
+        </div>
+        <div class="partners">
+            <ul>
+                <li><a href="https://Dia.wiki" target="blank">Decentralized Intelligence Agency</a></li>
+                <li><a href="https://WorldVibeWeb.org" target="_blank">World Vibe Web</a></li>
+                <li><a href="https://Purplerock.xyz" target="_blank">Purplerock</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="copyright">© 2024 Torzor. All rights reserved.</div>
+    </footer>
+    <script src="./app.js"></script>
 </body>
 </html>

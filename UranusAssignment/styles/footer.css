@@ -1,17 +1,19 @@
 
+footer{
+     background-color: #6FB3D2;
+     bottom: 0;
+     font-family: Arial, Helvetica, sans-serif;
+}
 .footer-container {
-    background-color: #6FB3D2;
     padding: 20px; 
     width: 100%; 
     display: flex;
     justify-content: space-around; 
     align-items: center;
     position: static; 
-    bottom: 0;
 }
 a {
     text-decoration: none;
-    font-weight: 600;
     line-height: 36px;
     font-size: 16px;
     color: white; 
@@ -22,10 +24,6 @@ a {
 }
 .partners {
     display: inline-block;
-}
-h2 {
-    color: black; 
-    text-align: center;
 }
 ul {
     list-style-type: none; 
@@ -39,5 +37,8 @@ li {
 .copyright {
     color: #000;
     text-align: center;
-    flex-grow: 1;
+    font-size: 16px;
+}
+i{
+    margin-right: 10px;
 }
